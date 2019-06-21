@@ -2,6 +2,9 @@ package com.company;
 
 public class B extends A {
 
+    private static int a = printInit("initialized static variable in class B");
+    private int b = printInit("initialized no-static variable in class B");
+
     public B(){
         System.out.println("Constructor B called");
     }
